@@ -1,5 +1,5 @@
 const projects = [
-  { title:'Portfolio Website', desc:'A modern personal portfolio built using React and Tailwind CSS with a clean UI and responsive layout.', stack:['React','Tailwind','JavaScript'], preview:'#', github:'#' },
+  { title:'Portfolio Website', desc:'A modern personal portfolio built using React and Tailwind CSS with a clean UI and responsive layout.', stack:['React','Tailwind','JavaScript'], preview:'vishu-react-portfolio.vercel.app', github:'https://github.com/vishuyadav01/vishu-react-portfolio' },
   { title:'Landing Page', desc:'A fast and lightweight product landing page created using HTML, CSS and JavaScript.', stack:['HTML','CSS','JavaScript'], preview:'#', github:'#' },
   { title:'Todo App', desc:'A simple task manager allowing users to add, delete and track daily tasks with local storage support.', stack:['React','CSS'], preview:'#', github:'#' },
   { title:'Weather App', desc:'A weather forecast app fetching real-time API data and displaying it in a clean UI.', stack:['JavaScript','API','CSS'], preview:'#', github:'#' }
