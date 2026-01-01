@@ -7,8 +7,7 @@ export default function Contact() {
     setForm({ ...form, [e.target.name]: e.target.value });
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  function handleSubmit() {
     alert("Thanks for your message!");
   }
 
@@ -23,12 +22,9 @@ export default function Contact() {
       <form
         action="https://formsubmit.co/vishuyadav0109@gmail.com"
         method="POST"
-        className="mt-8 bg-[#0d0d0d] p-8 rounded-2xl shadow-xl border border-white/10 max-w-2xl"
         onSubmit={handleSubmit}
+        className="mt-8 bg-[#0d0d0d] p-8 rounded-2xl shadow-xl border border-white/10 max-w-2xl"
       >
-        {/* required by FormSubmit only once */}
-        <input type="hidden" name="_captcha" value="false" />
-
         <div className="grid md:grid-cols-2 gap-6">
           <div>
             <label className="text-sm">Name</label>
